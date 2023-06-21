@@ -11067,3 +11067,15 @@ header.masthead h1, header.masthead .h1 {
 #hist{
   width: 35px;
 }
+
+label{
+    font-family: 'Magra';
+}
+
+.margina{
+  margin-top: 8rem;
+}
+
+.nossaHistoria{
+  font-size: 1.3rem;
+}
