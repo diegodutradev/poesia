@@ -57,8 +57,8 @@
   --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1rem;
+  --bs-body-font-family: Syncopate, Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-size: 0.625rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -1961,6 +1961,12 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+@font-face {
+  font-family: 'marker';
+  src: url('dripping.ttf') format('truetype');
+}
+
 .form-label {
   margin-bottom: 0.5rem;
 }
@@ -10999,8 +11005,15 @@ header.masthead h1, header.masthead .h1 {
   max-width: 300px;
 }
 
-.hero-title{
+.fontSyncopate{
   font-family: 'Syncopate', sans-serif;
+}
+
+.fontMagra{
+  font-family: 'Magra', sans-serif;
+}
+
+.hero-title{
   font-size: 1.5rem;
   text-align: center;
   max-width: 300px;
@@ -11018,4 +11031,39 @@ header.masthead h1, header.masthead .h1 {
 
 .link{
   color: #fb3b93;
+}
+
+.icone{
+  width: 25px;
+  margin-bottom: 7px;
+}
+
+.iconePortifolio{
+  width: 25px;
+  margin-bottom: 3px;
+}
+
+.fonteMenor{
+  font-size: 0.5rem !important;
+}
+
+.lineHeight{
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+}
+
+#contact{
+  padding-bottom: 0;
+}
+
+.fontMarker{
+  font-family:'marker';
+}
+
+.backgroundCall{
+  background-color: #62bb85;
+}
+
+#hist{
+  width: 35px;
 }
