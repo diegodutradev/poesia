@@ -672,9 +672,7 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin: 0;
 }
 .row > * {
   flex-shrink: 0;
@@ -2371,6 +2369,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
 .form-range::-webkit-slider-thumb:active {
   background-color: #fcd0c4;
 }
@@ -10842,7 +10841,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {
@@ -10893,23 +10892,15 @@ hr.divider-light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #fb3b93 !important;
 }
-@media (min-width: 992px) {
-  #mainNav {
-    box-shadow: none;
-    background-color: transparent;
-  }
-  #mainNav .navbar-brand {
-    color: #fff;
-  }
+
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #FB3B93;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: #fff;
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #FB3B93;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10930,11 +10921,11 @@ hr.divider-light {
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #fb3b93;
   }
-}
+
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
+  padding-top: 7rem;
+  padding-bottom: 3rem;
   background-color: #DBE141;
   background-position: center;
   background-repeat: no-repeat;
@@ -11021,8 +11012,8 @@ header.masthead h1, header.masthead .h1 {
 
 .img-nav{
   width: 40px;
-  margin-right: 10px;
-  margin-bottom: 15px;
+  margin-right: 3px;
+  margin-bottom: 20px;
 }
 
 .history{
@@ -11049,7 +11040,7 @@ header.masthead h1, header.masthead .h1 {
 
 .lineHeight{
   line-height: 1.5rem;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
 }
 
 #contact{
@@ -11078,4 +11069,34 @@ label{
 
 .nossaHistoria{
   font-size: 1.3rem;
+}
+
+
+.mast{
+  background-color: #DBE141;
+  padding-top: 9rem;
+  padding-bottom: 4rem;
+}
+
+label{
+  font-size: 1rem;
+}
+
+.buttonWidth{
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.buttonWidth:focus {
+  color: #FB3B93;
+}
+
+.paddingHist{
+  padding: 4rem;
+}
+
+.cursor{
+  cursor: pointer;
 }

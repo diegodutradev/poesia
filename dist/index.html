@@ -32,29 +32,30 @@
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top" class="link">
+        <div class="container">
+            <a class="navbar-brand cursor" id="refresh" class="link">
                 <img src="../src/assets/img/fav.png" class="img-nav animate__animated animate__fadeInLeft">
                 Poesia nas Quebradas</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler navbar-toggler-right buttonWidth" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                aria-label="Toggle navigation"
+                id="burguerButton"><span id="hamburguer"><i class="bi bi-list"></i></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link link" href="#page-top">Início</a></li>
-                    <li class="nav-item"><a class="nav-link link" href="#portfolio">Projetos</a>
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 menu">
+                    <li class="nav-item"><a class="nav-link link pb-3" href="#mast">Início</a></li>
+                    <li class="nav-item"><a class="nav-link link pb-3" href="#portfolio">Projetos</a>
                     <li>
-                    <li class="nav-item"><a class="nav-link link" href="" onclick="alert('Aqui ficará o link para a galeria')">Galeria</a>
+                    <li class="nav-item"><a class="nav-link link pb-3" href="" onclick="alert('Aqui ficará o link para a galeria')">Galeria</a>
                     <li>
-                    <li class="nav-item"><a class="nav-link link" href="#about">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link link pb-3" href="#about">Sobre Nós</a></li>
                     <li class="nav-item"><a class="nav-link link" href="#contact">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
-        <div class="container px-4 px-lg-5 h-100">
+    <header class="mast" id="mast">
+        <div class="container px-4 px-lg-5 h-100 padinho">
             <div class="d-flex justify-content-center">
                 <img src="../src/assets/logo-poesia.png" class="hero animate__animated animate__fadeIn">
             </div>
@@ -147,9 +148,7 @@
                         criticidade e a expressão criativa num contexto de inovação social,
                         em que as fronteiras podem ser problematizadas com vistas à construção de posicionamentos
                         inclusivos.</p>
-                    <a class="btn btn-light btn-xl" href="#services"
-                        onclick="alert('Aqui será o redirecionamento para a galeria de fotos dos projetos')"> <img src="assets/img/icon-mais.png" class="icone pb-2" alt=""> Conheça
-                        Mais</a>
+               
                 </div>
             </div>
         </div>
@@ -249,11 +248,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
 </body>
 
 </html>

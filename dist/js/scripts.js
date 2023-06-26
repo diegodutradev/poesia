@@ -57,3 +57,44 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+var burguer = document.getElementById('hamburguer');
+var burguerButton = document.getElementById('burguerButton');
+var icone = true;
+
+function toggleIcon(){
+    if(icone){
+        burguer.innerHTML = '<i class="bi bi-x-lg"></i>';
+        icone = false;
+    } else {
+        burguer.innerHTML = '<i class="bi bi-list"></i>';
+        icone = true;
+    }
+        
+}
+
+burguerButton.addEventListener('click', toggleIcon);
+
+const menuItems = document.querySelectorAll('ul li a');
+
+menuItems.forEach(item => {
+    item.addEventListener('click', function(event){
+        event.preventDefault();
+        const element = event.target;
+        const id = element.getAttribute('href');
+        const to = document.querySelector(id).offsetTop;
+
+        window.scroll({
+            top: to - 100,
+            behavior: "smooth",
+        })
+    });
+})
+
+var btn = document.querySelector("#refresh");
+btn.addEventListener("click", function() {
+    window.scroll({
+        top: 0,
+        behavior: "smooth",
+    })    
+});
