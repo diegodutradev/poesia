@@ -11118,6 +11118,12 @@ label{
 figure{
   display: inline-block;
   font-size: 0.5rem;
+  cursor: pointer;
+}
+
+figure:hover{
+  background: rgba(251,59,147 , 0.8);
+  opacity: 0.25s ease;
 }
 
 .iconeMaior{
