@@ -11100,3 +11100,27 @@ label{
 .cursor{
   cursor: pointer;
 }
+
+.iconesRedes{
+  font-size: 3rem;
+}
+
+.galeriaImg{
+  width: 15rem;
+}
+
+.legendaTam{
+  margin: 0;
+  width: 15rem;
+  display: inline-block;
+}
+
+figure{
+  display: inline-block;
+  font-size: 0.5rem;
+}
+
+.iconeMaior{
+  width: 45px;
+  margin-bottom: 15px;
+}

@@ -75,7 +75,7 @@ function toggleIcon(){
 
 burguerButton.addEventListener('click', toggleIcon);
 
-const menuItems = document.querySelectorAll('ul li a');
+const menuItems = document.querySelectorAll('.seletor');
 
 menuItems.forEach(item => {
     item.addEventListener('click', function(event){

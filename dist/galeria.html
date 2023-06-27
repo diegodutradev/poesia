@@ -32,87 +32,93 @@
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top" class="link">
+        <div class="container">
+            <a class="navbar-brand cursor" id="refresh" class="link" href="index.html">
                 <img src="../src/assets/img/fav.png" class="img-nav animate__animated animate__fadeInLeft">
                 Poesia nas Quebradas</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler navbar-toggler-right buttonWidth" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                aria-label="Toggle navigation"
+                id="burguerButton"><span id="hamburguer"><i class="bi bi-list"></i></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link link" href="#page-top">Início</a></li>
-                    <li class="nav-item"><a class="nav-link link" href="#portfolio">Projetos</a>
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 menu">
+                    <li class="nav-item"><a class="nav-link link pb-3" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link link pb-3" href="#portfolio">Projetos</a>
                     <li>
-                    <li class="nav-item"><a class="nav-link link" href="" onclick="alert('Aqui ficará o link para a galeria')">Galeria</a>
+                    <li class="nav-item"><a class="nav-link link pb-3" href="#galeria">Galeria</a>
                     <li>
-                    <li class="nav-item"><a class="nav-link link" href="#about">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link link pb-3" href="#about">Sobre Nós</a></li>
                     <li class="nav-item"><a class="nav-link link" href="#contact">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead-->
+    <header class="mast" id="galeria">
+        <div class="container px-4 px-lg-5 h-100 padinho">
+            <div class="d-flex justify-content-center">
+                <h1 class="animate__animated animate__bounceInUp fontSyncopate"><img src="assets/img/icon-galeria.png" class="iconeMaior">Galeria</h1>
+            </div>
 
-     <!-- Portfolio-->
-     <div id="portfolio">
-      <div class="container-fluid p-0">
-        <h2 class="margina fontSyncopate text-center">GALERIA DE IMAGENS</h2>
-          <div class="row g-0">
-              <div class="col-lg-4 col-sm-6">
-                  <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Nas Quebras da Socioeducação">
-                      <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
-                      <div class="portfolio-box-caption">
-                          <div class="project-name fontSyncopate">Nas Quebras da Socioeducação</div>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-lg-4 col-sm-6">
-                  <a class="portfolio-box fontSyncopate" href="assets/img/portfolio/fullsize/2.jpg" title="Sarau na Católica">
-                      <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
-                      <div class="portfolio-box-caption">
-                          <div class="project-name fontSyncopate">Sarau na Católica</div>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-lg-4 col-sm-6">
-                  <a class="portfolio-box fontSyncopate" href="assets/img/portfolio/fullsize/3.jpg" title="Vozes e Escritos do Gueto">
-                      <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
-                      <div class="portfolio-box-caption">
-                          <div class="project-name fontSyncopate">Vozes e Escritos do Gueto</div>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-lg-4 col-sm-6">
-                  <a class="portfolio-box fontSyncopate" href="assets/img/portfolio/fullsize/4.jpg" title="Fest Sarau">
-                      <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
-                      <div class="portfolio-box-caption">
-                          <div class="project-name fontSyncopate">Fest Sarau</div>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-lg-4 col-sm-6">
-                  <a class="portfolio-box fontSyncopate" href="assets/img/portfolio/fullsize/5.jpg" title="Grafitte nas Escolas">
-                      <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
-                      <div class="portfolio-box-caption">
-                          <div class="project-name fontSyncopate">Grafitte nas Escolas</div>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-lg-4 col-sm-6">
-                  <a class="portfolio-box fontSyncopate" href="assets/img/portfolio/fullsize/6.jpg" title="Primeiro Livro Publicado">
-                      <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
-                      <div class="portfolio-box-caption p-3">
-                          <div class="project-name fontSyncopate">Primeiro Livro Publicado</div>
-                      </div>
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
+            <hr>
 
+            <div class="d-flex justify-content-center">
 
+                <div class="text-center">
+                    <figure>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-sarau2.png?alt=media&token=f734f07c-5abc-4fb4-911b-89329e062031" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Sarau na Católica 2ª edição</figcaption>
+                    </figure>
 
+                    <figure><img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-nasQuebrasLan%C3%A7amento.png?alt=media&token=9b50ed65-8eee-482b-8429-3b5aeb946b70" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Lançamento do terceiro livro</figcaption>
+                    </figure>
+
+                    <figure><img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-nasQuebrasUip.png?alt=media&token=e567872b-81f7-4743-baba-f1fe7286155a" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Nas Quebras da Socioeducação Uip</figcaption>
+                    </figure>
+
+                    <figure><img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-nasQuebrasGeama.png?alt=media&token=5f60e235-0454-4f95-b7a0-0a950ea4bbb2" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Nas Quebras da Socioeducação Geama</figcaption>
+                    </figure>
+
+                    <figure><img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-sarau1.png?alt=media&token=756c6c42-7991-4e9b-b528-c183b43fbb3d" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Sarau na Católica 1ª edição</figcaption>
+                    </figure>
+
+                    <figure><img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-vozes.png?alt=media&token=a1de788b-37be-4060-9581-5de75b19150c" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Vozes e Escritos do Gueto</figcaption>
+                    </figure>
+
+                    <figure><img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-grafiteNasEscolas.png?alt=media&token=64a24b23-8184-4edb-8611-106622fd9442" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Grafite nas Escolas</figcaption>
+                    </figure>
+
+                    <figure><img src="https://firebasestorage.googleapis.com/v0/b/poesianasquebradas-e960d.appspot.com/o/capas%2Fcapa-fest.png?alt=media&token=31364eb9-298b-4324-83e8-7d0deabcbcad" alt="" class="galeriaImg p-1">
+                        <figcaption class="p-1">Fest Sarau</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </header>
+
+   
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 text-center m-4 mb-lg-0">
+
+                    <a href="https://wa.me/5561981769305" target="_blank">
+                        <i class="bi bi-whatsapp mb-3 p-4 iconesRedes"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/poesianasquebradas/" target="_blank">
+                        <i class="bi bi-instagram mb-3 p-4 iconesRedes"></i>
+                    </a>
+
+                  
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container px-4 px-lg-5">
@@ -130,6 +136,7 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
 </body>
 
 </html>
