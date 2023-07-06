@@ -91,6 +91,7 @@ menuItems.forEach(item => {
     });
 })
 
+
 var btn = document.querySelector("#refresh");
 btn.addEventListener("click", function() {
     window.scroll({
@@ -98,3 +99,5 @@ btn.addEventListener("click", function() {
         behavior: "smooth",
     })    
 });
+
+
