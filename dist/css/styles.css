@@ -11136,4 +11136,16 @@ figure:hover{
   color: #fb3b93 !important;
 }
 
+figcaption{
+  color: var(--bs-body-color);
+}
 
+.tamTitulo{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.btnHover:hover{
+  background: #FB3B93;
+  opacity: 0.9;
+}
